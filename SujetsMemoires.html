@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Propositions de thématiques de mémoires – HECh</title>
+
+<style>
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding-left: 260px;
+    transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+    color: var(--title);
+}
+
+h2 {
+    margin: 40px 0 20px;
+    color: var(--subtitle);
+}
+
+/* THEME */
+:root {
+    --bg: #fafafa;
+    --text: #2c3e50;
+    --title: #2c3e50;
+    --subtitle: #34495e;
+    --card: #ffffff;
+    --border: #cccccc;
+    --hover: #e8e8e8;
+}
+
+.dark {
+    --bg: #1e1e1e;
+    --text: #e0e0e0;
+    --title: #ffffff;
+    --subtitle: #d0d0d0;
+    --card: #2a2a2a;
+    --border: #555;
+    --hover: #333;
+}
+
+/* NAVBAR TOP */
+nav {
+    position: fixed;
+    top: 0;
+    left: 260px;
+    right: 0;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #0077cc;
+}
+
+/* SIDEBAR */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    background: var(--card);
+    border-right: 1px solid var(--border);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#sidebar img {
+    width: auto;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+#sidebar h3 {
+    margin-bottom: 15px;
+    color: var(--subtitle);
+}
+
+#sidebar a {
+    display: block;
+    padding: 8px 0;
+    color: var(--text);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#sidebar a:hover {
+    color: #0077cc;
+}
+
+/* ACCORDÉONS */
+details {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    transition: background 0.3s;
+}
+
+details:hover {
+    background: var(--hover);
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--text);
+}
+
+details[open] summary {
+    color: #0077cc;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* DARK MODE BUTTON */
+#darkmode-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
+}
+
+#darkmode-btn:hover {
+    background: var(--hover);
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+    body {
+        padding-left: 0;
+    }
+    #sidebar {
+        display: none;
+    }
+    nav {
+        left: 0;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+<div id="sidebar">
+
+    <!-- PLACE ICI TON IMAGE -->
+    <img src="hech.png" alt="Logo HECh">
+
+    <h3>Navigation</h3>
+    <a href="#s1">S1 – Maternelle</a>
+    <a href="#s2">S2 – Primaire</a>
+    <a href="#s3">S3 – Secondaire</a>
+</div>
+
+
+
+<h1>Propositions de thématiques de mémoires – HECh</h1>
+
+<!-- ===================== S1 ===================== -->
+<h2 id="s1">S1 – Enseignement maternel</h2>
+
+<details><summary>Activités plastiques</summary>
+    <ul><li>Activités plastiques (2D/3D) au service des apprentissages scientifiques</li></ul>
+</details>
+
+<details><summary>Analyse de paysages</summary>
+    <ul>
+        <li>Citoyenneté</li>
+        <li>Démarche d’investigation</li>
+        <li>Éducation à l’environnement</li>
+        <li>Structuration temporelle</li>
+    </ul>
+</details>
+
+<details><summary>Approche de la diversité</summary>
+    <ul>
+        <li>Dimension de genre</li>
+        <li>Inégalités sociales</li>
+        <li>Pédagogie interculturelle</li>
+        <li>Prévenir les stéréotypes racistes</li>
+        <li>Sensibiliser à la diversité culturelle</li>
+        <li>Socialisation, confiance en soi, connaissance de soi</li>
+    </ul>
+</details>
+
+<details><summary>Compétences langagières</summary>
+    <ul>
+        <li>Albums pour enfants et informations implicites</li>
+        <li>Langage et technologie</li>
+    </ul>
+</details>
+
+<details><summary>Découverte du monde</summary>
+    <ul>
+        <li>Alimentation</li>
+        <li>Albums</li>
+        <li>Citoyenneté</li>
+        <li>Musique</li>
+    </ul>
+</details>
+
+<details><summary>Démarche documentaire</summary>
+    <ul><li>Initier la démarche documentaire</li></ul>
+</details>
+
+<details><summary>Éducation à l’environnement</summary>
+    <ul>
+        <li>Alimentation locale</li>
+        <li>Démarche d’investigation</li>
+        <li>Land'art</li>
+        <li>Récup'art</li>
+    </ul>
+</details>
+
+<details><summary>Éducation affective et sexuelle</summary>
+    <ul><li>Éducation affective et sexuelle</li></ul>
+</details>
+
+<details><summary>Éducation à la philosophie et à la citoyenneté</summary>
+    <ul><li>Discussion à Visée Philosophique</li></ul>
+</details>
+
+<details><summary>Éveil historique</summary>
+    <ul>
+        <li>Archives et ressources audiovisuelles</li>
+        <li>Carnet de vie, généalogie</li>
+        <li>Chansons</li>
+        <li>Décentration via la Préhistoire</li>
+        <li>Ligne du temps et supports didactiques</li>
+        <li>Objets et traces du passé</li>
+        <li>Récits historiques</li>
+        <li>Saynettes historiques</li>
+        <li>Témoignages oraux</li>
+    </ul>
+</details>
+
+<details><summary>Éveil scientifique</summary>
+    <ul>
+        <li>Coins scientifiques et autonomie</li>
+        <li>Compétences langagières</li>
+        <li>École du dehors</li>
+        <li>Expérimentation</li>
+        <li>Jeux scientifiques</li>
+        <li>Kits pédagogiques de physique</li>
+        <li>Monde sonore et musique</li>
+        <li>Notions de grandeurs</li>
+        <li>Structuration temporelle</li>
+        <li>Supports didactiques</li>
+        <li>Traces des observations</li>
+    </ul>
+</details>
+
+<details><summary>Gestion de conflits</summary>
+    <ul>
+        <li>Autonomie</li>
+        <li>Méthode de résolution de problèmes</li>
+    </ul>
+</details>
+
+<details><summary>Jeu et apprentissages</summary>
+    <ul>
+        <li>Apprentissage par le jeu</li>
+        <li>Faire semblant</li>
+        <li>Malentendus socio‑cognitifs</li>
+    </ul>
+</details>
+
+<details><summary>Mathématiques</summary>
+    <ul>
+        <li>Approche intuitive des mathématiques</li>
+        <li>Dénombrement et sens des opérations</li>
+        <li>Livres à compter</li>
+    </ul>
+</details>
+
+<details><summary>Météo</summary>
+    <ul>
+        <li>Autonomie</li>
+        <li>Démarche d’investigation</li>
+        <li>Langage</li>
+        <li>Mesures et grandeurs</li>
+    </ul>
+</details>
+
+<details><summary>Neurosciences</summary>
+    <ul>
+        <li>Organisation matérielle de la classe</li>
+        <li>Supports didactiques et mémorisation</li>
+    </ul>
+</details>
+
+<details><summary>Parents et école</summary>
+    <ul><li>Faire entrer les parents dans la classe</li></ul>
+</details>
+
+<details><summary>Rôle de l’école maternelle</summary>
+    <ul><li>Éduquer ou instruire ?</li></ul>
+</details>
+
+<details><summary>Structuration spatiale</summary>
+    <ul>
+        <li>Autonomie</li>
+        <li>Dénombrement et calcul</li>
+        <li>Graphisme et écriture</li>
+        <li>Musique</li>
+    </ul>
+</details>
+
+<details><summary>Théories du complot et esprit critique</summary>
+    <ul>
+        <li>Décentration</li>
+        <li>Esprit critique</li>
+        <li>Points de vue</li>
+    </ul>
+</details>
+
+<details><summary>Transitions</summary>
+    <ul><li>Activités de transition</li></ul>
+</details>
+
+<!-- ===================== S2 ===================== -->
+<h2 id="s2">S2 – Enseignement primaire</h2>
+
+<details><summary>Approche de la diversité</summary>
+    <ul>
+        <li>Diversité culturelle</li>
+        <li>Genre</li>
+        <li>Inégalités sociales</li>
+        <li>Pédagogie interculturelle</li>
+        <li>Stéréotypes racistes</li>
+    </ul>
+</details>
+
+<details><summary>Approches pédagogiques</summary>
+    <ul>
+        <li>Approche par compétences</li>
+        <li>Classe-ateliers</li>
+        <li>Cyber classes</li>
+        <li>E-learning</li>
+        <li>École du dehors</li>
+        <li>Enseignement explicite</li>
+        <li>Pédagogie inversée</li>
+        <li>Travail par projet</li>
+    </ul>
+</details>
+
+<details><summary>Création et utilisation d’outils pédagogiques</summary>
+    <ul>
+        <li>Exploiter des vidéos</li>
+        <li>iBook</li>
+        <li>LearningApps</li>
+        <li>Synthèses interactives</li>
+    </ul>
+</details>
+
+<details><summary>Différenciation</summary>
+    <ul>
+        <li>Classe</li>
+        <li>Évaluation formative vs sommative</li>
+        <li>Tablettes numériques</li>
+    </ul>
+</details>
+
+<details><summary>Éducation culturelle et artistique</summary>
+    <ul><li>Aller au théâtre : pourquoi et comment ?</li></ul>
+</details>
+
+<details><summary>Éducation à la philosophie et à la citoyenneté</summary>
+    <ul><li>Discussion à Visée Philosophique</li></ul>
+</details>
+
+<details><summary>Évaluation</summary>
+    <ul>
+        <li>Autoévaluation</li>
+        <li>École sans notes</li>
+        <li>Évaluation formative</li>
+        <li>Journal des apprentissages</li>
+        <li>Métacognition</li>
+        <li>Portfolio numérique</li>
+    </ul>
+</details>
+
+<details><summary>Formation géographique</summary>
+    <ul>
+        <li>APP en géographie</li>
+        <li>Carte en art et géographie</li>
+        <li>Classe dehors</li>
+        <li>Découverte du monde</li>
+        <li>Échelles et représentations</li>
+        <li>Éducation au développement durable</li>
+        <li>Géo-graphie</li>
+        <li>Littérature jeunesse</li>
+        <li>Mondialisation</li>
+        <li>Pédagogie interculturelle</li>
+        <li>Paysages</li>
+        <li>Zéro déchet</li>
+    </ul>
+</details>
+
+<details><summary>Formation historique</summary>
+    <ul>
+        <li>Albums et littérature jeunesse</li>
+        <li>Esprit critique</li>
+        <li>Histoire locale</li>
+        <li>Interpréter des sources</li>
+        <li>Jeux vidéo</li>
+        <li>Récits</li>
+        <li>Synthèses interactives</li>
+    </ul>
+</details>
+
+<details><summary>Français</summary>
+    <ul>
+        <li>Albums et littérature jeunesse</li>
+        <li>Ateliers d’écriture</li>
+        <li>Cartes mentales</li>
+        <li>Ceintures de compétences</li>
+        <li>Compréhension</li>
+        <li>Conscience phonologique</li>
+        <li>Écoute (JDE, Ça s’écoute)</li>
+        <li>Écriture à partir d’images</li>
+        <li>FLE et allophones</li>
+        <li>Lector/Lectrix</li>
+        <li>Lecture quotidienne</li>
+        <li>Plan Lecture</li>
+        <li>Programme PARLER</li>
+        <li>TBI</li>
+    </ul>
+</details>
+
+<details><summary>Mathématiques</summary>
+    <ul>
+        <li>Maths dans les livres</li>
+        <li>Musique et maths</li>
+        <li>Outils numériques</li>
+        <li>Peur des maths</li>
+        <li>Proportions</li>
+    </ul>
+</details>
+
+<details><summary>Sciences</summary>
+    <ul>
+        <li>Anatomie et vision dans l’espace</li>
+        <li>Ateliers scientifiques</li>
+        <li>Démarche scientifique</li>
+        <li>Livrets d’observation</li>
+        <li>Tablettes et projets</li>
+        <li>Traces écrites</li>
+    </ul>
+</details>
+
+<!-- ===================== S3 ===================== -->
+<h2 id="s3">S3 – Secondaire</h2>
+
+<details><summary>EPC</summary>
+    <ul>
+        <li>Décision individuelle et collective</li>
+        <li>Discussion philosophique</li>
+        <li>Émotions et argumentation</li>
+        <li>Esprit critique et réseaux sociaux</li>
+        <li>Futurotopies et écotopies</li>
+        <li>Idéologie capitaliste</li>
+        <li>Notion de vérité</li>
+        <li>Passerelles entre réseaux</li>
+    </ul>
+</details>
+
+<details><summary>Éducation physique et santé</summary>
+    <ul>
+        <li>École du dehors</li>
+        <li>Escalade et sécurité</li>
+        <li>Habiletés sociomotrices</li>
+        <li>Hygiène alimentaire</li>
+        <li>Numérique en EPS</li>
+        <li>Parkour</li>
+        <li>Premiers soins</li>
+        <li>Projet sportif</li>
+        <li>Spécialisé</li>
+    </ul>
+</details>
+
+<details><summary>FLE / FLA</summary>
+    <ul>
+        <li>Français langue de scolarisation</li>
+        <li>Plurilinguisme</li>
+        <li>Supports plurilingues</li>
+    </ul>
+</details>
+
+<details><summary>Français – Lecture</summary>
+    <ul>
+        <li>Évaluer les textes longs</li>
+        <li>Fiction et textes informatifs</li>
+        <li>Identité du lecteur</li>
+        <li>Lecture et équité scolaire</li>
+        <li>Planification de la 1re année</li>
+        <li>Transition primaire-secondaire</li>
+    </ul>
+</details>
+
+<details><summary>Français – Écriture</summary>
+    <ul>
+        <li>Démarche accompagnée</li>
+        <li>Planifier, réviser, améliorer</li>
+        <li>Utopies</li>
+    </ul>
+</details>
+
+<details><summary>Français – Oral</summary>
+    <ul>
+        <li>Oral réflexif et argumentation</li>
+    </ul>
+</details>
+
+<details><summary>Langues germaniques</summary>
+    <ul>
+        <li>Apprentissages</li>
+        <li>Bien-être</li>
+        <li>Collaboration</li>
+        <li>Didactiques</li>
+        <li>Méthodologies</li>
+        <li>Motivation</li>
+        <li>Numérique</li>
+    </ul>
+</details>
+
+<details><summary>Math et formation numérique</summary>
+    <ul>
+        <li>Dyscalculie</li>
+        <li>IA et enseignement des maths</li>
+        <li>Maltraitance : repérage</li>
+        <li>Pédagogies alternatives</li>
+        <li>Transition primaire-secondaire</li>
+        <li>Validation académique</li>
+    </ul>
+</details>
+
+<details><summary>Sciences</summary>
+    <ul>
+        <li>Applications et simulations</li>
+        <li>Approche évolutive de la difficulté</li>
+        <li>Différenciation</li>
+        <li>Enseignement explicite</li>
+        <li>Fablab</li>
+        <li>IA en sciences</li>
+        <li>Quizz et évaluation formative</li>
+        <li>Référentiel sciences et FMTTN</li>
+    </ul>
+</details>
+
+<!-- BOUTON MODE SOMBRE -->
+<button id="darkmode-btn">Mode sombre</button>
+
+<script>
+document.getElementById("darkmode-btn").onclick = function() {
+    document.body.classList.toggle("dark");
+    this.textContent = document.body.classList.contains("dark")
+        ? "Mode clair"
+        : "Mode sombre";
+};
+</script>
+
+</body>
